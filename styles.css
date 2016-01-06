@@ -1,0 +1,16 @@
+html {
+  font-family: helvetica;
+}
+
+header {
+  margin-bottom: 25px;
+}
+
+.editable-content, header {
+  padding: 10px;
+  border: 2px solid #0090D2;
+}
+
+.editable {
+  color: red;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title>editable item directive</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="container" ng-controller="mainCtrl" >
+  <header class="row" make-editable>
+    <h1>Editable Header</h1>
+  </header>
+
+  <div class="row editable-content" make-editable>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore et quis, pariatur non architecto totam ad magnam quos, labore placeat, ipsum delectus quod libero doloribus soluta animi aliquid. Tempore, placeat.</p>
+  </div>
+  <div class="row editable-content" make-editable>
+		<h1>hello</h1>
+		<p>We are the people</p>
+	</div>
+
+  <script src='node_modules/angular/angular.min.js'></script>
+  <script src='myApp.js'></script>
+</body>
+</html>

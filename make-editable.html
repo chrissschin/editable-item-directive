@@ -1,0 +1,9 @@
+<div class="col-sm-12"
+	contenteditable="{{ editableStatus }}"
+	ng-class = "{ editable: editableStatus }"
+  ng-transclude>
+</div>
+<div class="editable-controls col-sm-12">
+	<button class="btn btn-primary" ng-click="editableStatus = true" ng-show="!editableStatus">Edit</button>
+	<button class="btn btn-primary" ng-click="editableStatus = false" ng-show="editableStatus">Save Changes</button>
+</div>
